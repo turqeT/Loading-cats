@@ -13,7 +13,7 @@ public class CatMapper {
 
     public static List<Cat> mapList(List<CatPojo> list) {
         List<Cat> cats = new ArrayList<>();
-        for (CatPojo cat: list) {
+        for (CatPojo cat : list) {
             cats.add(map(cat));
         }
         return cats;
