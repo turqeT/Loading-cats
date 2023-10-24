@@ -10,5 +10,5 @@ public interface CatListView {
 
     void showNoDataMessage();
 
-    void showToast(String text);
+    void showToast();
 }

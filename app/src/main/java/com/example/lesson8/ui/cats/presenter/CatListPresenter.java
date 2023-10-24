@@ -4,6 +4,7 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
+
 import com.example.lesson8.R;
 import com.example.lesson8.data.model.CatPojo;
 import com.example.lesson8.data.repository.CatsRepository;
@@ -47,7 +48,7 @@ public class CatListPresenter implements ICatsPresenter {
 
             @Override
             public void onFailure(@NonNull Call<List<CatPojo>> call, @NonNull Throwable t) {
-                view.showToast(String.valueOf(R.string.wrong));
+                view.showToast();
                 List<CatPojo> catsFromCache = catsRepository.getFromCache();
                 if (!catsFromCache.isEmpty()) {
                     view.showCats(CatMapper.mapList(catsFromCache));

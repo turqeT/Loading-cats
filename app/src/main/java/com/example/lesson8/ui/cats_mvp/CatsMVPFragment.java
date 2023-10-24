@@ -78,8 +78,8 @@ public class CatsMVPFragment extends Fragment implements CatsListener, CatListVi
     }
 
     @Override
-    public void showToast(String text) {
-        Toast.makeText(getActivity(), text, Toast.LENGTH_LONG).show();
+    public void showToast() {
+        Toast.makeText(getActivity(), getString(R.string.wrong), Toast.LENGTH_LONG).show();
     }
 
 
