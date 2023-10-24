@@ -1,6 +1,5 @@
-package com.example.lesson8.ui.cats;
+package com.example.lesson8.ui.adapter;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.lesson8.R;
 import com.example.lesson8.ui.cats.model.Cat;
+import com.example.lesson8.ui.listener.CatsListener;
 import com.example.lesson8.ui.utils.GlideProvider;
 
 import java.util.ArrayList;

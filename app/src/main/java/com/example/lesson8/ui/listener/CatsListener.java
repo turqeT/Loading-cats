@@ -1,4 +1,4 @@
-package com.example.lesson8.ui.cats;
+package com.example.lesson8.ui.listener;
 
 import com.example.lesson8.ui.cats.model.Cat;
 

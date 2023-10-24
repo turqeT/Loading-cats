@@ -1,4 +1,4 @@
-package com.example.lesson8.ui.cats;
+package com.example.lesson8.ui.cats_mvp;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,10 +15,12 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.lesson8.R;
+import com.example.lesson8.ui.adapter.CatAdapter;
 import com.example.lesson8.ui.cats.model.Cat;
 import com.example.lesson8.ui.cats.presenter.CatListPresenter;
 import com.example.lesson8.ui.cats.presenter.CatListView;
 import com.example.lesson8.ui.cats_info.CatsInfoFragment;
+import com.example.lesson8.ui.listener.CatsListener;
 
 import java.util.List;
 
