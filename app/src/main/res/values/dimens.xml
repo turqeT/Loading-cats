@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vh_height">200dp</dimen>
+    <dimen name="iv_height_weight">100dp</dimen>
+    <dimen name="iv_margin_top">48dp</dimen>
+    <dimen name="tv_margin_top">88dp</dimen>
+    <dimen name="tv_margin_end">144dp</dimen>
+    <dimen name="tv_margin_h">50dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="iv_info">300dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="h_margin_tv_cats_mvp">120dp</dimen>
+    <dimen name="v_margin_tv_cats_mvp">220dp</dimen>
+</resources>
