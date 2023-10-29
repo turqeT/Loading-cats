@@ -28,7 +28,6 @@ public class CatAdapter extends RecyclerView.Adapter<CatAdapter.ViewHolder> {
 
     public void setCats(List<Cat> catList) {
         this.catList = catList;
-
         notifyDataSetChanged();
     }
 
